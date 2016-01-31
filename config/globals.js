@@ -8,6 +8,8 @@
  * For more information on configuration, check out:
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.globals.html
  */
+_request = require('request');
+_ = require('underscore');
 module.exports.globals = {
 
   /****************************************************************************
@@ -18,7 +20,7 @@ module.exports.globals = {
   *                                                                           *
   ****************************************************************************/
 
-	// _: true,
+	 //_: true,
 
   /****************************************************************************
   *                                                                           *
@@ -28,7 +30,7 @@ module.exports.globals = {
   *                                                                           *
   ****************************************************************************/
 
-	// async: true,
+	 async: true,
 
   /****************************************************************************
   *                                                                           *

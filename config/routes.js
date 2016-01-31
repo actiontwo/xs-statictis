@@ -32,8 +32,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/*': {
-    view: 'homepage',
+  '/admin*': {
+    view: 'admin/index',
     skipAssets: true,
     skipRegex: /^\/api\/.*$/
   }
